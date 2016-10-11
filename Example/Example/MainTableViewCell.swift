@@ -13,6 +13,10 @@ class MainTableViewCell: UITableViewCell {
     @IBOutlet weak var background: UIView!
     @IBOutlet weak var header: UIView!
     
+    @IBOutlet weak var bkImage: UIImageView!
+    @IBOutlet weak var title: UILabel!
+    @IBOutlet weak var subTitle: UILabel!
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()

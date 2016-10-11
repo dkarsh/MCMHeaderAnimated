@@ -14,12 +14,14 @@ class DetailViewController: UIViewController {
     var element: NSDictionary! = nil
     
     @IBOutlet weak var header: UIView!
-    
+    @IBOutlet weak var headTitle: UILabel!
+    @IBOutlet weak var bkImage: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         header.backgroundColor = self.element.objectForKey("color") as? UIColor
+        headTitle.text = self.element.objectForKey("title") as? String
     }
     
     override func didReceiveMemoryWarning() {
@@ -38,6 +40,10 @@ extension DetailViewController: MCMHeaderAnimatedDelegate {
     func headerCopy(subview: UIView) -> UIView {
         let headerN = UIView()
         headerN.backgroundColor = self.element.objectForKey("color") as? UIColor
+        let headTitle = UILabel(frame:self.headTitle.frame)
+        headerN.addSubview(headTitle)
+        headTitle.text =  self.element.objectForKey("title") as? String
+
         return headerN
     }
     

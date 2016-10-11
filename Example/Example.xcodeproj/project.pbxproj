@@ -17,6 +17,11 @@
 		0512366D1B0C07C200F95AC6 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0512366C1B0C07C200F95AC6 /* MainTableViewController.swift */; };
 		0512366F1B0C07E600F95AC6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0512366E1B0C07E600F95AC6 /* DetailViewController.swift */; };
 		051236711B0C07F200F95AC6 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051236701B0C07F200F95AC6 /* MainTableViewCell.swift */; };
+		E5D144E41DA8299A00557390 /* Brown-Bold-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E5D144DF1DA8299A00557390 /* Brown-Bold-Italic.otf */; };
+		E5D144E51DA8299A00557390 /* Brown-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E5D144E01DA8299A00557390 /* Brown-Bold.otf */; };
+		E5D144E61DA8299A00557390 /* Brown-Regular-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E5D144E11DA8299A00557390 /* Brown-Regular-Italic.otf */; };
+		E5D144E71DA8299A00557390 /* Brown-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E5D144E21DA8299A00557390 /* Brown-Regular.otf */; };
+		E5D144E81DA8299A00557390 /* Brown-Thin-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E5D144E31DA8299A00557390 /* Brown-Thin-Italic.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +76,11 @@
 		0512366C1B0C07C200F95AC6 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		0512366E1B0C07E600F95AC6 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		051236701B0C07F200F95AC6 /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		E5D144DF1DA8299A00557390 /* Brown-Bold-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Brown-Bold-Italic.otf"; sourceTree = "<group>"; };
+		E5D144E01DA8299A00557390 /* Brown-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Brown-Bold.otf"; sourceTree = "<group>"; };
+		E5D144E11DA8299A00557390 /* Brown-Regular-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Brown-Regular-Italic.otf"; sourceTree = "<group>"; };
+		E5D144E21DA8299A00557390 /* Brown-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Brown-Regular.otf"; sourceTree = "<group>"; };
+		E5D144E31DA8299A00557390 /* Brown-Thin-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Brown-Thin-Italic.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +139,11 @@
 			isa = PBXGroup;
 			children = (
 				051236111B0C00BE00F95AC6 /* Info.plist */,
+				E5D144DF1DA8299A00557390 /* Brown-Bold-Italic.otf */,
+				E5D144E01DA8299A00557390 /* Brown-Bold.otf */,
+				E5D144E11DA8299A00557390 /* Brown-Regular-Italic.otf */,
+				E5D144E21DA8299A00557390 /* Brown-Regular.otf */,
+				E5D144E31DA8299A00557390 /* Brown-Thin-Italic.otf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -223,14 +238,16 @@
 			attributes = {
 				LastSwiftMigration = 0730;
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Mathias Carignani";
 				TargetAttributes = {
 					0512360C1B0C00BE00F95AC6 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0800;
 					};
 					051236211B0C00BE00F95AC6 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 0512360C1B0C00BE00F95AC6;
 					};
 				};
@@ -282,9 +299,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5D144E71DA8299A00557390 /* Brown-Regular.otf in Resources */,
+				E5D144E51DA8299A00557390 /* Brown-Bold.otf in Resources */,
 				051236181B0C00BE00F95AC6 /* Main.storyboard in Resources */,
+				E5D144E41DA8299A00557390 /* Brown-Bold-Italic.otf in Resources */,
 				0512361D1B0C00BE00F95AC6 /* LaunchScreen.xib in Resources */,
 				0512361A1B0C00BE00F95AC6 /* Images.xcassets in Resources */,
+				E5D144E61DA8299A00557390 /* Brown-Regular-Italic.otf in Resources */,
+				E5D144E81DA8299A00557390 /* Brown-Thin-Italic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,14 +382,17 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -404,8 +429,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -424,6 +451,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -434,7 +462,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mathiascarignani.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -444,7 +474,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mathiascarignani.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -462,7 +494,9 @@
 				);
 				INFOPLIST_FILE = ExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mathiascarignani.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example.app/Example";
 			};
 			name = Debug;
@@ -477,7 +511,9 @@
 				);
 				INFOPLIST_FILE = ExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mathiascarignani.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example.app/Example";
 			};
 			name = Release;

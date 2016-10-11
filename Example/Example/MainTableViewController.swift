@@ -20,12 +20,10 @@ class MainTableViewController: UITableViewController {
         super.viewDidLoad()
         
         self.elements = [
-            ["color": UIColor(red: 25/255.0, green: 181/255.0, blue: 254/255.0, alpha: 1.0)],
-            ["color": UIColor(red: 54/255.0, green: 215/255.0, blue: 183/255.0, alpha: 1.0)],
-            ["color": UIColor(red: 210/255.0, green: 77/255.0, blue: 87/255.0, alpha: 1.0)],
-            ["color": UIColor(red: 236/255.0, green: 236/255.0, blue: 236/255.0, alpha: 1.0)]
+            ["img": "map","title":"Plans","byline":"upcoming trips"],
+            ["img": "pen","title":"Suggestions","byline":"new suggestions"],
+            ["img": "url_user","title":"My Profile","byline":"new suggestions"],
         ]
-        
     }
     
     // MARK: - Table view data source
@@ -41,15 +39,18 @@ class MainTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("mainCell", forIndexPath: indexPath) as! MainTableViewCell
         
-        cell.background.layer.cornerRadius = 10;
         cell.background.clipsToBounds = true
-        cell.header.backgroundColor = self.elements.objectAtIndex(indexPath.row).objectForKey("color") as? UIColor
+        cell.bkImage.image = UIImage(named:(self.elements.objectAtIndex(indexPath.row).objectForKey("img") as? String)!)
+        cell.bkImage.contentMode = UIViewContentMode.ScaleAspectFill
+        cell.title.text = (self.elements.objectAtIndex(indexPath.row).objectForKey("title") as? String)!
+        
+        cell.subTitle.text = (self.elements.objectAtIndex(indexPath.row).objectForKey("byline") as? String)!
         
         return cell
     }
     
     override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        return 180.0
+        return tableView.frame.height/CGFloat(self.elements.count)
     }
     
     // MARK: - Navigation
@@ -79,10 +80,17 @@ extension MainTableViewController: MCMHeaderAnimatedDelegate {
     }
     
     func headerCopy(subview: UIView) -> UIView {
-        let cell = tableView.cellForRowAtIndexPath(self.lastSelected) as! MainTableViewCell
+        let cell = self.tableView.cellForRowAtIndexPath(self.lastSelected) as! MainTableViewCell
         let header = UIView(frame: cell.header.frame)
         header.backgroundColor = self.elements.objectAtIndex(self.lastSelected.row).objectForKey("color") as? UIColor
+        
+        let label = UILabel(frame: cell.title.frame)
+        label.center =  cell.title.center
+        label.textAlignment = .Center
+        label.font = cell.title.font
+        label.textColor = cell.title.textColor
+        label.text = self.elements.objectAtIndex(self.lastSelected.row).objectForKey("title") as? String
+        header .addSubview(label)
         return header
     }
-    
 }
