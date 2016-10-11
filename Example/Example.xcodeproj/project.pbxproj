@@ -10,7 +10,6 @@
 		051236131B0C00BE00F95AC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051236121B0C00BE00F95AC6 /* AppDelegate.swift */; };
 		051236181B0C00BE00F95AC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 051236161B0C00BE00F95AC6 /* Main.storyboard */; };
 		0512361A1B0C00BE00F95AC6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 051236191B0C00BE00F95AC6 /* Images.xcassets */; };
-		0512361D1B0C00BE00F95AC6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0512361B1B0C00BE00F95AC6 /* LaunchScreen.xib */; };
 		051236291B0C00BE00F95AC6 /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051236281B0C00BE00F95AC6 /* ExampleTests.swift */; };
 		051236651B0C028800F95AC6 /* MCMHeaderAnimated.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 051236621B0C021000F95AC6 /* MCMHeaderAnimated.framework */; };
 		051236671B0C032500F95AC6 /* MCMHeaderAnimated.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 051236621B0C021000F95AC6 /* MCMHeaderAnimated.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -22,6 +21,19 @@
 		E5D144E61DA8299A00557390 /* Brown-Regular-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E5D144E11DA8299A00557390 /* Brown-Regular-Italic.otf */; };
 		E5D144E71DA8299A00557390 /* Brown-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E5D144E21DA8299A00557390 /* Brown-Regular.otf */; };
 		E5D144E81DA8299A00557390 /* Brown-Thin-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E5D144E31DA8299A00557390 /* Brown-Thin-Italic.otf */; };
+		E5FB86831DAC93F000E07BE8 /* AppIntroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5FB86821DAC93F000E07BE8 /* AppIntroViewController.xib */; };
+		E5FB86901DAC944100E07BE8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E5FB86841DAC944100E07BE8 /* Icon.png */; };
+		E5FB86911DAC944100E07BE8 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5FB86851DAC944100E07BE8 /* Icon@2x.png */; };
+		E5FB86921DAC944100E07BE8 /* Icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5FB86861DAC944100E07BE8 /* Icon@3x.png */; };
+		E5FB86931DAC944100E07BE8 /* stamp1.png in Resources */ = {isa = PBXBuildFile; fileRef = E5FB86871DAC944100E07BE8 /* stamp1.png */; };
+		E5FB86941DAC944100E07BE8 /* stamp2.png in Resources */ = {isa = PBXBuildFile; fileRef = E5FB86881DAC944100E07BE8 /* stamp2.png */; };
+		E5FB86951DAC944100E07BE8 /* patch.png in Resources */ = {isa = PBXBuildFile; fileRef = E5FB86891DAC944100E07BE8 /* patch.png */; };
+		E5FB86961DAC944100E07BE8 /* temp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5FB868A1DAC944100E07BE8 /* temp.jpg */; };
+		E5FB86971DAC944100E07BE8 /* clouds-no-planes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5FB868B1DAC944100E07BE8 /* clouds-no-planes.jpg */; };
+		E5FB86981DAC944100E07BE8 /* addphoto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5FB868C1DAC944100E07BE8 /* addphoto.jpg */; };
+		E5FB86991DAC944100E07BE8 /* clouds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5FB868D1DAC944100E07BE8 /* clouds.jpg */; };
+		E5FB869A1DAC944100E07BE8 /* 2015-04-28-09.03.59-3.png in Resources */ = {isa = PBXBuildFile; fileRef = E5FB868E1DAC944100E07BE8 /* 2015-04-28-09.03.59-3.png */; };
+		E5FB869B1DAC944100E07BE8 /* 2015-04-29-08.21.17-1.png in Resources */ = {isa = PBXBuildFile; fileRef = E5FB868F1DAC944100E07BE8 /* 2015-04-29-08.21.17-1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,7 +80,6 @@
 		051236121B0C00BE00F95AC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		051236171B0C00BE00F95AC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		051236191B0C00BE00F95AC6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		0512361C1B0C00BE00F95AC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		051236221B0C00BE00F95AC6 /* ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		051236271B0C00BE00F95AC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		051236281B0C00BE00F95AC6 /* ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTests.swift; sourceTree = "<group>"; };
@@ -81,6 +92,20 @@
 		E5D144E11DA8299A00557390 /* Brown-Regular-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Brown-Regular-Italic.otf"; sourceTree = "<group>"; };
 		E5D144E21DA8299A00557390 /* Brown-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Brown-Regular.otf"; sourceTree = "<group>"; };
 		E5D144E31DA8299A00557390 /* Brown-Thin-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Brown-Thin-Italic.otf"; sourceTree = "<group>"; };
+		E5FB86821DAC93F000E07BE8 /* AppIntroViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppIntroViewController.xib; sourceTree = "<group>"; };
+		E5FB86841DAC944100E07BE8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		E5FB86851DAC944100E07BE8 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		E5FB86861DAC944100E07BE8 /* Icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@3x.png"; sourceTree = "<group>"; };
+		E5FB86871DAC944100E07BE8 /* stamp1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stamp1.png; sourceTree = "<group>"; };
+		E5FB86881DAC944100E07BE8 /* stamp2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stamp2.png; sourceTree = "<group>"; };
+		E5FB86891DAC944100E07BE8 /* patch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = patch.png; sourceTree = "<group>"; };
+		E5FB868A1DAC944100E07BE8 /* temp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = temp.jpg; sourceTree = "<group>"; };
+		E5FB868B1DAC944100E07BE8 /* clouds-no-planes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "clouds-no-planes.jpg"; sourceTree = "<group>"; };
+		E5FB868C1DAC944100E07BE8 /* addphoto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = addphoto.jpg; sourceTree = "<group>"; };
+		E5FB868D1DAC944100E07BE8 /* clouds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clouds.jpg; sourceTree = "<group>"; };
+		E5FB868E1DAC944100E07BE8 /* 2015-04-28-09.03.59-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2015-04-28-09.03.59-3.png"; sourceTree = "<group>"; };
+		E5FB868F1DAC944100E07BE8 /* 2015-04-29-08.21.17-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2015-04-29-08.21.17-1.png"; sourceTree = "<group>"; };
+		E5FB869C1DAC948300E07BE8 /* crisscrossfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = crisscrossfont.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,12 +149,24 @@
 		0512360F1B0C00BE00F95AC6 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				E5FB86841DAC944100E07BE8 /* Icon.png */,
+				E5FB86851DAC944100E07BE8 /* Icon@2x.png */,
+				E5FB86861DAC944100E07BE8 /* Icon@3x.png */,
+				E5FB86871DAC944100E07BE8 /* stamp1.png */,
+				E5FB86881DAC944100E07BE8 /* stamp2.png */,
+				E5FB86891DAC944100E07BE8 /* patch.png */,
+				E5FB868A1DAC944100E07BE8 /* temp.jpg */,
+				E5FB868B1DAC944100E07BE8 /* clouds-no-planes.jpg */,
+				E5FB868C1DAC944100E07BE8 /* addphoto.jpg */,
+				E5FB868D1DAC944100E07BE8 /* clouds.jpg */,
+				E5FB868E1DAC944100E07BE8 /* 2015-04-28-09.03.59-3.png */,
+				E5FB868F1DAC944100E07BE8 /* 2015-04-29-08.21.17-1.png */,
 				0512366A1B0C07A100F95AC6 /* Controllers */,
 				0512366B1B0C07A700F95AC6 /* Views */,
 				051236121B0C00BE00F95AC6 /* AppDelegate.swift */,
 				051236161B0C00BE00F95AC6 /* Main.storyboard */,
 				051236191B0C00BE00F95AC6 /* Images.xcassets */,
-				0512361B1B0C00BE00F95AC6 /* LaunchScreen.xib */,
+				E5FB86821DAC93F000E07BE8 /* AppIntroViewController.xib */,
 				051236101B0C00BE00F95AC6 /* Supporting Files */,
 			);
 			path = Example;
@@ -139,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				051236111B0C00BE00F95AC6 /* Info.plist */,
+				E5FB869C1DAC948300E07BE8 /* crisscrossfont.ttf */,
 				E5D144DF1DA8299A00557390 /* Brown-Bold-Italic.otf */,
 				E5D144E01DA8299A00557390 /* Brown-Bold.otf */,
 				E5D144E11DA8299A00557390 /* Brown-Regular-Italic.otf */,
@@ -299,14 +337,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5FB86941DAC944100E07BE8 /* stamp2.png in Resources */,
 				E5D144E71DA8299A00557390 /* Brown-Regular.otf in Resources */,
+				E5FB86981DAC944100E07BE8 /* addphoto.jpg in Resources */,
 				E5D144E51DA8299A00557390 /* Brown-Bold.otf in Resources */,
+				E5FB86901DAC944100E07BE8 /* Icon.png in Resources */,
+				E5FB86931DAC944100E07BE8 /* stamp1.png in Resources */,
 				051236181B0C00BE00F95AC6 /* Main.storyboard in Resources */,
 				E5D144E41DA8299A00557390 /* Brown-Bold-Italic.otf in Resources */,
-				0512361D1B0C00BE00F95AC6 /* LaunchScreen.xib in Resources */,
+				E5FB86911DAC944100E07BE8 /* Icon@2x.png in Resources */,
+				E5FB86971DAC944100E07BE8 /* clouds-no-planes.jpg in Resources */,
 				0512361A1B0C00BE00F95AC6 /* Images.xcassets in Resources */,
+				E5FB86831DAC93F000E07BE8 /* AppIntroViewController.xib in Resources */,
+				E5FB86951DAC944100E07BE8 /* patch.png in Resources */,
 				E5D144E61DA8299A00557390 /* Brown-Regular-Italic.otf in Resources */,
+				E5FB869B1DAC944100E07BE8 /* 2015-04-29-08.21.17-1.png in Resources */,
+				E5FB869A1DAC944100E07BE8 /* 2015-04-28-09.03.59-3.png in Resources */,
+				E5FB86961DAC944100E07BE8 /* temp.jpg in Resources */,
+				E5FB86921DAC944100E07BE8 /* Icon@3x.png in Resources */,
 				E5D144E81DA8299A00557390 /* Brown-Thin-Italic.otf in Resources */,
+				E5FB86991DAC944100E07BE8 /* clouds.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,14 +406,6 @@
 				051236171B0C00BE00F95AC6 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0512361B1B0C00BE00F95AC6 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0512361C1B0C00BE00F95AC6 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -460,6 +502,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mathiascarignani.$(PRODUCT_NAME:rfc1034identifier)";
@@ -472,6 +515,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mathiascarignani.$(PRODUCT_NAME:rfc1034identifier)";
